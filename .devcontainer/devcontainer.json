@@ -40,9 +40,9 @@
 		"editor.tabSize": 4,
 		"terminal.integrated.defaultProfile.linux": "zsh",
 		"terminal.integrated.profiles.linux": {
-			  "zsh": {
+			"zsh": {
 				"path": "zsh"
-			  }
+			}
 			},
 		"terminal.integrated.fontFamily": "Agave Nerd Font Mono"
 	},
@@ -57,7 +57,7 @@
 "mounts": [
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
     "source=devcontainer-zshistory,target=/commandhistory,type=volume"
-  ],
+]
 // Use 'postCreateCommand' to run commands after the container is created.
 //"postCreateCommand": ["cd ~/workspaces/react-playground/", "npm install"]
 
